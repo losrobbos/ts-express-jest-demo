@@ -6,9 +6,11 @@ Install:
 Create typescript config:
 `npx tsc --init`
 
-Create jest config for understanding typescript
+Create jest config to make jest understand typescript :)
 `npx ts-jest config:init`
 
+Run tests (file with .test.ts ending)
+`npx jest`
 
 ## Relationship
 
