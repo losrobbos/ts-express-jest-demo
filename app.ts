@@ -5,10 +5,9 @@ export const app = express()
 
 // animal service which fetches data from "database"
 // returns hardcoded data for now :)
+const animalService = new AnimalService()
 
 // TODO: outsource controller functions (all the funcs with (req,res,next) into a controller class)
-
-const animalService = new AnimalService()
 
 app.get("/", (req, res, next) => {
   res.json("Hello from API")
