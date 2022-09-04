@@ -12,13 +12,3 @@ Create jest config to make jest understand typescript :)
 Run tests (file with .test.ts ending)
 `npx jest`
 
-## Relationship
-
-One-to-One: 1 Tabelle
-One-to-Many: 2 Tabelle
-Many-to-Many: 3 Tabelle
-
-
-## Disclaimers!
-
-Please name all your typescript files with .ts extension!
