@@ -1,7 +1,7 @@
 # Typescript JEST setup
 
 Install: 
-`npm i -D jest@28 ts-jest typescript ts-node`
+`npm i -D jest@27 ts-jest typescript ts-node`
 
 Create typescript config:
 `npx tsc --init`
