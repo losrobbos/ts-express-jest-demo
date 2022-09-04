@@ -7,9 +7,11 @@ export class AnimalController implements IController {
   // returns hardcoded data for now :)
   private _animalService: AnimalService;
 
-  public constructor() {
-    this._animalService = new AnimalService();
+  // inject animal service dependency
+  public constructor(animalService: AnimalService) {
+    this._animalService = animalService
   }
+
   public getAll = (req: Request, res: Response, next: NextFunction) => {
     const animals = this._animalService.findAll();
     res.json(animals);
