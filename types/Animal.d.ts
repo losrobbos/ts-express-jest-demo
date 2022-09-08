@@ -18,6 +18,7 @@ export type Animal = {
 
 type ControllerFunc = (req: Request, res: Response, next: NextFunction) => void;
 
+// each controller we setup must provide these methods to support all REST methods
 export interface IController {
   getAll: ControllerFunc; // get all items
   getOne: ControllerFunc; // get single item by ID
